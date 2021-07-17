@@ -1,0 +1,66 @@
+.container1{
+	height:100px;
+	width:100%;
+	box-shadow: 10px 10px 8px #888888;
+	background-color: cornflowerblue;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:-20px;
+}
+button {
+
+  background-color:dimgray;
+
+  padding: 2px 5px;
+  margin: 8px 0;
+  border:1;
+  cursor: pointer;
+  border-radius:8px;
+}
+body{
+	 background-image:url(ameen-fahmy-3HpqRJqcW6E-unsplash.jpg);
+	
+}
+h2{
+	font-family:Bahnschrift Light;
+	font-size:40px;
+	font:bold
+}
+.col-sm-4{
+	background-color:lightblue;
+	opacity: 0.85;
+	border-radius:10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-top: 20px;
+	
+}
+.details{
+	background-color:lightblue;
+	opacity: 0.85;
+	border-radius:10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-top: 20px;
+	
+}
+aa.{
+	width:300px;
+	padding: 1px 30px;
+	
+}
+.bbyear{
+	padding: 1px 48px;
+	
+}
+
+#sub{
+	color:black;
+	font:bold;
+	font-size: 25px;
+	
+}
+
+input{
+	border-radius: 10px;
+}

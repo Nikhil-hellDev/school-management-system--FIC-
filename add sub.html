@@ -1,0 +1,131 @@
+<html>
+<head>
+  <link rel="stylesheet" href="add subject.css">  
+  
+</head>
+
+
+<body  >
+<form action="" method="get">
+  
+<table class="course_info" align="center" >
+	<tr>
+		<th><input type="text"  name="course" placeholder="Course"></th>
+		<th><input type="text" name="branch" placeholder="Branch"></th>
+	</tr>
+	<tr>
+		<th><input type="text" name="sem" placeholder="Sem"></th>
+        <th><input type="text" placeholder="Total no of subject"></th>
+        
+		
+	</tr>
+</table>  
+  
+  
+	
+<table align="center">
+<!--<h2>marks info</h2>-->
+
+<table class="sub_info" align="center">
+  <tr style="background-color:lightgray">
+  
+    <th>Subject/code</th>
+    <th>Theory</th>
+    <th>Total marks</th>
+	<th>Earned marks</th>
+  </tr>
+  <tr>
+    <td><input placeholder="sub. 1"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <tr>
+    <td><input placeholder="sub. 2"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <tr>
+    <td><input placeholder="sub. 3"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <tr>
+    <td><input placeholder="sub. 4"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+  <tr>
+    <td><input placeholder="sub. 1"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <!--<tr>
+    <td><input placeholder="sub. 2"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <tr>
+    <td><input placeholder="sub. 3"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+    <tr>
+    <td><input placeholder="sub. 4"></td>
+    <td><input placeholder="T/P"></td>
+    <td><input placeholder="total marks"></td>
+	<td><input placeholder="earned marks"></td>
+  </tr>
+ -->
+ 
+</table>
+	
+
+  </table>
+  <center>
+<input id="sub_button" type="submit" value="Submit" name="submit" >
+  </center>
+    </form>
+   <?php
+        include("connection.php");
+      
+        If(isset($_GET['submit']))
+            {
+$id=$_GET['s_id'];
+$sn=$_GET['s_name'];
+$db=$_GET['dob'];
+$gn=$_GET['gen'];
+$fn=$_GET['fname'];
+$ay=$_GET['admissionyear'];
+$b=$_GET['branch'];
+$em=$_GET['email'];
+$pn=$_GET['phoneno'];
+$ad=$_GET['address'];
+            
+         $query="INSERT INTO ADS VALUES ('$id','$sn','$db','$gn','$fn','$ay','$b','$em','$pn','$ad')";
+$data=mysqli_query($conn,$query);
+           
+            if($data)
+            {
+                
+          
+                echo "data inserted";
+            }
+            else
+            {
+                echo "data not inserted";
+            }
+            }
+            ?>
+</body>
+
+
+
+
+</html>

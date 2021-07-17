@@ -1,0 +1,37 @@
+<?php
+include("connection.php")
+ If(isset($_GET['save']))
+            {
+    $na=$_GET['name'];
+    $ra=$_GET['rollno'];
+$co=$_GET['course'];
+$b=$_GET['branch'];
+$s=$_GET['semester'];
+$su1=$_GET['s1'];
+$tp1=$_GET['t1'];
+$tm1=$_GET['tm1'];
+    $em1=$_GET['em1'];
+$su2=$_GET['s2'];
+$tp2=$_GET['t2'];
+$tm2=$_GET['tm2'];
+    $em2=$_GET['em2'];
+$su3=$_GET['s3'];
+$tp3=$_GET['t3'];
+$tm3=$_GET['tm3'];
+$em3=$_GET['em3'];
+    $su4=$_GET['s4'];
+$tp4=$_GET['t4'];
+$tm4=$_GET['tm4'];
+$em4=$_GET['em4'];
+    $su5=$_GET['s5'];
+$tp5=$_GET['t5'];
+$tm5=$_GET['tm5'];
+    $em5=$_GET['em5'];
+$rs=$_GET['result'];
+    $sg=$_GET['sgpa'];
+    $cg=$_GET['cgpa'];
+$query="INSERT INTO AMD VALUE( '$na','$ra','$co',' $b','$s','$su1','$tp1','$tm1','$em1','$su2','$tp2','$tm2','$em2','$su3','$tp3',' $tm3','$em3','$su4','$tp4','$tm4','$em4,'$su5','$tp5','$tm5','$em5','$rs','$sg','$cg')";
+mysqli_query($conn,$query);
+            }
+       
+?>

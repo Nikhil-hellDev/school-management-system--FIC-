@@ -1,0 +1,255 @@
+.col-sm-2{
+        
+		background-color:lightgray;
+		
+		height:155px;
+		border: 1px solid;
+		border-radius:15px;
+		
+
+}
+
+h1{
+    font-family:; 
+    font-size: 75px;
+    color:aqua;
+}
+.rows{
+    margin-right:100px;
+    
+}
+.row2{
+    margin-right:100px;
+    
+}
+
+body{
+    background-color: #ffffff;
+    margin: -20px;
+    
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet"  href="admindash.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <style>
+    
+
+.rows{
+    	background-color:lightgray;
+    	height:60px;
+}
+
+.rows a
+{
+    margin-left:10px;
+}
+    </style>
+    
+    </head>
+<body>
+   <div class="rows" >
+			
+            
+			<a href="admindash.html">hi</a>
+            
+            
+			<a href="student registration.php">H12</a>
+			
+			
+            <a href="studentsearch.php">HI3</a>
+            
+            
+            <a href="mark1.php">HI4</a>
+			
+			
+			<a href="addsub.php">hi5</a>
+			
+			<div class="col-sm-1"></div >
+			<a href="login.php">hi6</a>
+		</div>
+    </body>
+    </html>
+
+
+
+    <img src="pencil1.jpg"  height="20" width="15">
+
+
+
+
+
+
+
+
+    .rows{
+        width:auto;
+            background-color:lightgray;
+            height:auto;
+        
+    }
+    
+    .rows a
+    {
+       height:20px;
+        margin-left:25px;
+    }
+
+
+    <div class="rows" >
+			<center>
+           
+			<a style="font-size:22px; color:#000;" href="home1.php">User Registration</a>
+            
+           	<a style="font-size:22px; color:#000;" href="showresult1.php">View Result</a>
+			
+		 <a style="font-size:22px; color:#000;" href="delete privious entry.php">Current Ongoing Test</a>
+            
+        <a style="font-size:22px; color:#000;" href="entery for test.php">Test Timer</a>
+      
+        <a style="font-size:25px; color:#000; border-width:3px; border-style:solid;  border-top: yellow;  border-left: yellow;  border-right: yellow;
+border-bottom:; " href="deshentry.php">User Dasboard</a>
+         	</center>
+		</div>
+  
+
+
+
+
+
+
+
+
+
+
+        .example {
+            position: relative;
+            padding: 0;
+            width: 300px;
+            display: block;
+            cursor: pointer;
+            overflow: hidden;
+          }
+          .content {
+            opacity: 0;
+            font-size: 40px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #1c87c9;
+            background-color: rgba(200, 200, 200, 0.5);
+            width: 300px;
+            height: 300px;
+            -webkit-transition: all 400ms ease-out;
+            -moz-transition: all 400ms ease-out;
+            -o-transition: all 400ms ease-out;
+            -ms-transition: all 400ms ease-out;
+            transition: all 400ms ease-out;
+            text-align: center;
+          }
+          .example .content:hover {
+            opacity: 1;
+          }
+          .example .content .text {
+            height: 0;
+            opacity: 1;
+            transition-delay: 0s;
+            transition-duration: 0.4s;
+          }
+          .example .content:hover .text {
+            opacity: 1;
+            transform: translateY(250px);
+            -webkit-transform: translateY(250px);
+          }
+
+
+          <div class="example">
+          <img src="Delete.png" width="300" height="300" alt="delete" />
+          <div class="content">
+            <div class="text">DELETE</div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        .logout
+        {height:60px;
+        width:200px;
+            position: relative;
+             display: block;
+                cursor: pointer;
+                overflow: hidden;
+        }
+        .content {
+                opacity: 0;
+                font-size: 5px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color:#1c87c9;
+                background-color:rgba(200, 200, 200, 0.5);
+                width:160px;
+                height: 40px;
+                margin-top:15px;
+                border-radius:10px;
+                -webkit-transition: all 400ms ease-out;
+                -moz-transition: all 400ms ease-out;
+                -o-transition: all 400ms ease-out;
+                -ms-transition: all 400ms ease-out;
+                transition: all 400ms ease-out;
+                text-align: center;
+              }
+              .logout .content:hover {
+                opacity: 1;
+              }
+              .logout .content .text {
+                height: 0;
+                opacity: 1;
+                transition-delay: 0s;
+                transition-duration: 0.4s;
+              }
+              .logout .content:hover .text {
+                opacity: 1;
+                transform: translateY(100px);
+                -webkit-transform: translateY(100px);
+              }
+    
+
+
+
+

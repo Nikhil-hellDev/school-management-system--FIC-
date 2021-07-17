@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+.row:after {
+  content: "";
+    display:table-row;
+  clear: both;
+}
+
+    body{
+        color:black;
+    margin: 0;
+    padding: 0;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.avatar{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.col-sm-4{
+        margin-top: 180px;
+		background-color:#FFFFFF;
+		width: 800px;
+    height: 400px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    
+		
+}
+
+.col-sm-4 input{
+    border-color:blue;
+	border-style:solid;
+    width: 100%;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.col-sm-4 input[type="text"] , input[type="password"]
+{  border-color:grey;
+    /*border: none;*/
+   
+    border-bottom: 1px solid blue;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    border-radius: 70px;
+}
+.col-sm-4 input[type="submit"]
+{       position:  absolute;
+   /*border-color:#ffc107;
+    margin: 10%;
+    padding:1%;
+*/
+    border: none;
+    background: #ffc107;
+    outline: #ffc107;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+.welcome{
+    
+    margin: 0%;
+	border-bottom-color:blue;
+	border-style:solid;
+	border-width:0px;
+    width: 840px;
+    height: auto;
+}
+    </style>
+    
+    
+<title>Login Form </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+<body>
+    <div class="row">
+    <div class="col-sm-3"><img class="welcome" src="group.png"></div>
+         
+    <div class="col-sm-3"></div>
+    
+        <div class="col-sm-4" >
+            <center>
+                <img src="down.png" class="avatar">
+            
+            <h1>Login as a user</h1>
+            <form method="post">
+                <input type="text" name="username" required placeholder="   Enter username">
+            <input type="password" name="password" required placeholder="   Enter Password">
+            <a href="admin.php">login as a admin?</a>   
+           <br><br>
+        </center>
+        <center>
+           <input type="submit" name="submit" value="submit">
+        </center>
+           
+        </form>
+        </div>
+    
+   
+</body>
+</html>
+  
